@@ -13,6 +13,7 @@
 		AAB3C5811DD0CE9F00328A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3C57F1DD0CE9F00328A10 /* Main.storyboard */; };
 		AAB3C5831DD0CE9F00328A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB3C5821DD0CE9F00328A10 /* Assets.xcassets */; };
 		AAB3C5861DD0CE9F00328A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3C5841DD0CE9F00328A10 /* LaunchScreen.storyboard */; };
+		AAB3C58F1DD0D26900328A10 /* TrumpImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3C58E1DD0D26900328A10 /* TrumpImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AAB3C5821DD0CE9F00328A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAB3C5851DD0CE9F00328A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAB3C5871DD0CE9F00328A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB3C58D1DD0D26900328A10 /* TrumpImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrumpImageView.h; sourceTree = "<group>"; };
+		AAB3C58E1DD0D26900328A10 /* TrumpImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrumpImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				AAB3C57C1DD0CE9F00328A10 /* ViewController.h */,
 				AAB3C57D1DD0CE9F00328A10 /* ViewController.m */,
 				AAB3C57F1DD0CE9F00328A10 /* Main.storyboard */,
+				AAB3C58D1DD0D26900328A10 /* TrumpImageView.h */,
+				AAB3C58E1DD0D26900328A10 /* TrumpImageView.m */,
 				AAB3C5821DD0CE9F00328A10 /* Assets.xcassets */,
 				AAB3C5841DD0CE9F00328A10 /* LaunchScreen.storyboard */,
 				AAB3C5871DD0CE9F00328A10 /* Info.plist */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB3C57E1DD0CE9F00328A10 /* ViewController.m in Sources */,
+				AAB3C58F1DD0D26900328A10 /* TrumpImageView.m in Sources */,
 				AAB3C57B1DD0CE9F00328A10 /* AppDelegate.m in Sources */,
 				AAB3C5781DD0CE9F00328A10 /* main.m in Sources */,
 			);
